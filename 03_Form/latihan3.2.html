@@ -1,0 +1,65 @@
+<!-- Alvian Teddy | 3201816023 -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan 3.2</title>
+    <style>
+        table {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        h2 {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Form Pendataan</h2>
+    <form name="pendataan">
+        <table cellpadding="10" cellspacing="0" border="0">
+            <tr>
+                <td>NIM</td>
+                <td><input type="text" name="nim" size="20" maxlength="8"></td>
+            </tr>
+
+            <tr>
+                <td>Nama Lengkap</td>
+                <td><input type="text" name="nama" size="40"></td>
+            </tr>
+
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td>
+                    <input name="gender" type="radio" checked>Laki-laki
+                    <input name="gender" type="radio">Perempuan
+                </td>
+            </tr>
+
+            <tr>
+                <td>Bidang</td>
+                <td>
+                    <input type="checkbox" name="web" checked>Web <br>
+                    <input type="checkbox" name="java">Java
+                </td>
+            </tr>
+
+            <tr>
+                <td>Semester</td>
+                <td>
+                    <select name="semester">
+                        <option value="1"></option>
+                    </select>
+                </td>
+            </tr>
+
+        </table>
+    </form>
+
+</body>
+
+</html>
