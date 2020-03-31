@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan 4.7</title>
+</head>
+<body>
+    <canvas id="canvas1" width="200" height="100" style="border: 1px solid #d3d3d3;">
+        Browser tidak support.
+    </canvas>
+
+    <script>
+        var c = document.getElementById("canvas1");
+        var ctx = c.getContext("2d");
+
+        // Create Gradient
+        var grd = ctx.createLinearGradient(0, 0, 200, 0);
+        grd.addColorStop(0, "blue");
+        grd.addColorStop(1, "white");
+
+        // Fill with gradient
+        ctx.fillStyle = grd;
+        ctx.fillRect(20, 10, 150, 80);
+
+    </script>
+</body>
+</html>

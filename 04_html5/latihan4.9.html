@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan 4.9</title>
+</head>
+
+<body>
+
+    <canvas id="canvas" width="600" height="300" style="border: 1px solid #000000;">
+
+    </canvas>
+
+    <script>
+        var c = document.getElementById("canvas");
+        var ctx = c.getContext("2d");
+
+        // Segitiga terisi
+        ctx.beginPath();
+        ctx.moveTo(25, 25);
+        ctx.lineTo(105, 25);
+        ctx.lineTo(25, 105);
+        ctx.fill();
+
+        // Stroke Segitiga
+        ctx.beginPath();
+        ctx.moveTo(125, 125);
+        ctx.lineTo(125, 45);
+        ctx.lineTo(45, 125);
+        ctx.closePath();
+        ctx.stroke()
+
+        ctx.font ="25px Arial";
+        ctx.fillText("Slice Company", 20, 160);
+
+    </script>
+
+</body>
+
+</html>

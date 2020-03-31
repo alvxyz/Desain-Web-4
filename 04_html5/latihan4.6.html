@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan 4.6</title>
+</head>
+<body>
+    <canvas id="canvas1" width="200" height="100" style="border: 1px solid #dd33dd;">
+        Your browser does not support the HTML5 canvas tag.
+    </canvas>
+
+    <script>
+        var c = document.getElementById("canvas1");
+        var ctx = c.getContext("2d");
+        ctx.beginPath();
+        ctx.arc(100, 50, 45, 0, 2*Math.PI);
+        ctx.stroke();
+    </script>
+</body>
+</html>

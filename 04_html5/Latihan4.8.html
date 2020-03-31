@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan 4.8</title>
+</head>
+
+<body>
+    <canvas id="canvas1" width="600" height="300" style="border: 1px solid #000000;">
+    </canvas>
+
+    <!-- <canvas id="canvas2" width="600" height="300" style="border: 1px solid #000000;">
+    </canvas> -->
+
+
+    <script>
+        var c = document.getElementById("canvas1");
+        var ctx = c.getContext("2d");
+
+        ctx.beginPath();
+        ctx.moveTo(50, 50);
+
+        ctx.lineTo(150, 50);
+        ctx.lineTo(150, 150);
+        ctx.lineTo(50, 150);
+        ctx.closePath();
+
+        ctx.moveTo(50, 50);
+        ctx.lineTo(90, 10);
+        ctx.lineTo(190, 10);
+        ctx.lineTo(150, 50);
+
+        ctx.moveTo(190, 10);
+        ctx.lineTo(190, 110);
+        ctx.lineTo(150, 150);
+
+        ctx.moveTo(90, 10);
+        ctx.lineTo(90, 110);
+        ctx.lineTo(190, 110);
+
+        ctx.moveTo(90, 110);
+        ctx.lineTo(50, 150);
+
+        // ctx.moveTo(350, 150);
+        // ctx.arc(415, 113, 35, 0, 2*Math.PI);
+
+        // var s = document.getElementById("canvas1");
+        // var ctxs = s.getContext("2d");
+
+        // ctxs.moveTo(350, 150);
+        // ctxs.lineTo(415, 40);
+        // ctxs.lineTo(480, 150);
+        // ctxs.lineTo(350, 150);
+
+        // var l = document.getElementById("canvas1");
+        // var ctxl = l.getContext("2d");
+
+        // ctx.arc(415, 113, 35, 0, 2*Math.PI, false);
+
+        ctx.stroke();
+
+
+
+    </script>
+
+    
+    <canvas id="canvas2" width="600" height="300" style="border: 1px solid #000000;">
+    </canvas>
+
+    <script>
+        var s = document.getElementById("canvas2");
+        var ctxs = s.getContext("2d");
+
+        ctxs.beginPath();
+        ctxs.arc(415, 113, 35, 0, 2 * Math.PI, false);
+
+        ctxs.moveTo(350, 150);
+        ctxs.lineTo(415, 40);
+        ctxs.lineTo(480, 150);
+        ctxs.lineTo(350, 150);
+
+        ctxs.stroke();
+    </script>
+</body>
+
+</html>
