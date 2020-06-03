@@ -9,7 +9,7 @@ Berikut Adalah File yang dikumpulkan
 File Project dapat diakses melalui file RAR, atau dengan mengunjungi Repository Github yang telah saya upload file projectnya.
 
 Link Github :
-https://github.com/alvxyz/Desain-Web-4/tree/master/04_html5
+https://github.com/alvxyz/Desain-Web-4/tree/master/07_CSS
 
 Terima Kasih Banyak atas pengertiannya.
 Wasallamualaikum.
