@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form UTS</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-image: url('bg2.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: white;
+        }
+
+        h2 {
+            text-align: center;
+            margin: auto;
+        }
+
+        table {
+            margin: auto;
+            padding: 15px;
+            border-spacing: 10px;
+
+        }
+
+        div {
+            background-color: #707070;
+            width: auto;
+            height: 40px;
+            padding-left: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h2>Alvian Putra Studio</h2>
+    </div>
+
+    <form action="">
+
+        <table>
+            <tr>
+                <td>Nama Depan</td>
+                <td><input type="text" name="namadepan" maxlength="16"></td>
+            </tr>
+
+            <tr>
+                <td>Nama Belakang</td>
+                <td><input type="text" name="namabelakang" maxlength="16"></td>
+            </tr>
+
+            <tr>
+                <td>Username</td>
+                <td><input type="text" name="username" maxlength="10"></td>
+            </tr>
+
+            <tr>
+                <td>Password</td>
+                <td><input type="password" name="password"></td>
+            </tr>
+
+            <tr>
+                <td>E-mail</td>
+                <td><input type="email" name="email"></td>
+            </tr>
+
+            <tr>
+                <td>Nomer Telepon</td>
+                <td><input type="tel" name="telepon" minlength="8" maxlength="12" required></td>
+            </tr>
+
+            <tr>
+                <td>Tanggal Lahir</td>
+                <td><input type="date" name="tgllahir"></td>
+            </tr>
+
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td><input type="radio" id="male" name="gender">
+                    <label for="male">Laki-laki</label><br>
+                    <input type="radio" id="female" name="gender">
+                    <label for="female">Perempuan</label><br>
+                </td>
+
+
+            </tr>
+
+            <tr>
+                <td>Keahlian</td>
+                <td>
+                    <select name="skill" id="">
+                        <option value="1">UI/UX Designer</option>
+                        <option value="2">Illustrator</option>
+                        <option value="3">Animator</option>
+                        <option value="4">Game Designer</option>
+                        <option value="5">Logo Designer</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Alamat</td>
+                <td><textarea name="alamat" cols="40" rows="4" placeholder="Masukkan alamat disini"></textarea></td>
+            </tr>
+
+
+            <tr>
+                <td>
+                    <input type="submit" value="Submit">
+                </td>
+
+                <td>
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+
+
+
+
+
+        </table>
+    </form>
+</body>
+
+</html>
