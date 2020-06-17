@@ -1,0 +1,26 @@
+* {
+    font-family: 'Rubik', sans-serif;
+}
+
+p {
+    font-size: 36px;
+}
+
+h1 {
+    font-weight: 900;
+}
+
+#jurusan-text {
+    color: blue;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.prodi-text {
+    color: red;
+    font-size: 20vh;
+}
+
+i {
+    font-size: 100px;
+}
