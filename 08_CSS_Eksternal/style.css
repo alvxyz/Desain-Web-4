@@ -1,0 +1,50 @@
+body {
+    background-repeat: no-repeat;
+    /* background-position: bottom; */
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: roboto;
+
+}
+
+.nav-logo {
+    margin-top: 2em;
+}
+
+.img-content {
+    margin-top: -100px;
+    position: relative;
+}
+
+.CTA {
+    border-radius: 100px;
+    width: 200px;
+    height: 40px;
+    background-color: #Fa6f49;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.CTA:hover {
+    background-color: black;
+}
+
+p {
+    line-height: 25px;
+    font-size: 18px;
+}
+
+.founder-name {
+    float: right;
+    position: relative;
+    margin-right: 350px;
+    margin-top: 10px;
+
+
+}
+
+a {
+    text-decoration: none;
+}
