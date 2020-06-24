@@ -1,0 +1,98 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    /* padding: 0;
+    margin: 0;
+    box-sizing: border-box; */
+}
+
+body {
+    background: -webkit-linear-gradient(right, #00ffae, #005eff);
+}
+
+#card {
+    /* color: white; */
+    background-color:#fbfbfb;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px #888888;
+    height: 410px;
+    width: 340px;
+    margin: 8rem auto 8.1rem auto;
+}
+
+#card-content {
+    padding: 12px 44px;
+}
+
+#card-title {
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif !important; */
+    letter-spacing: 4px;
+    padding-bottom: 24px;
+    padding-top: 12px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.underline-title {
+    background: -webkit-linear-gradient(right, #00ffae, #005eff);
+    height: 2px;
+    width: 180px;
+    margin: -2.5rem auto 0 auto;
+}
+
+.form {
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-border {
+    background: -webkit-linear-gradient(right, #00ffae, #005eff);
+    height: 1px;
+    width: 100%;
+}
+
+.form-content {
+    background-color: #fbfbfb;
+    border: none;
+    outline: none;
+    padding-top: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#forgot-password {
+    color: #005eff;
+    text-decoration: none;
+    font-size: 10pt;
+    margin-top: 10px;
+    text-align: right;
+
+}
+
+#submit-btn {
+    background: -webkit-linear-gradient(139deg, #00ffae, #005eff);
+    color: white;
+    border: none;
+    font-size: 12pt;
+    border-radius: 8px;
+    height: 35px;
+    width: 150px;
+    box-shadow: 0px 1px 8px #24c64f;
+    cursor: pointer;
+    margin: 0 auto;
+    margin-top: 30px;
+    transition: 0.2s;
+}
+
+#submit-btn:hover {
+    box-shadow: 0px 1px 16px #24c64f;
+}
+
+#signup {
+    margin: 0 auto;
+    margin-top: 15px;
+    font-size: 10pt;
+    color: #005eff;
+}
