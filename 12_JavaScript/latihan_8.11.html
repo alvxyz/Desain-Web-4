@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan 8.11</title>
+</head>
+
+<body>
+    <div id="pesan">
+        <h1>Welcome</h1>
+    </div>
+
+    <button id="tombolWarna" onclick="gantiWarna()">Hijau</button>
+
+    <script type="text/javascript">
+        function gantiWarna() {
+            var pesan = document.getElementById('pesan');
+            var button = document.getElementById('tombolWarna');
+
+            if (button.innerHTML == "Hijau") {
+                // pesan.innerHTML = "Whats Up!";
+                pesan.style.cssText = "background-color: green;";
+                button.innerHTML = "Merah";
+            } else if (button.innerHTML == "Merah") {
+                // pesan.innerHTML = "Brooo";
+                pesan.style.cssText = "background-color: red;";
+                button.innerHTML = "Biru";
+            } else if (button.innerHTML == "Biru") {
+                // pesan.innerHTML = "Brooo";
+                pesan.style.cssText = "background-color: blue;";
+                button.innerHTML = "Last";
+
+            } else {
+                alert("Warna Terkahir telah ditampilkan")
+            }
+        }
+    </script>
+</body>
+
+
+
+</html>
